@@ -180,6 +180,7 @@ void displayStringWrite( const char * str )
 
 //=====[Implementations of private functions]==================================
 
+
 static void displayCodeWrite( bool type, uint8_t dataBus )
 {
     if ( type == DISPLAY_RS_INSTRUCTION )
